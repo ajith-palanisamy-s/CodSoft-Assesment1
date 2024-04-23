@@ -1,0 +1,28 @@
+.movie__list {
+  background-color: rgb(0, 0, 0);
+  padding-top: 30px;
+text-align: center;
+
+
+}
+.movie__list h2{
+  text-align: left;
+  margin-left: 30px;
+}
+
+.list__title{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  color: rgb(133, 222, 255);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pagination button{
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 3px solid white;
+}

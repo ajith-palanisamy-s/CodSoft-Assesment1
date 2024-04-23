@@ -1,0 +1,28 @@
+.serpage{
+  background-color: rgb(0, 0, 0);
+  padding-top: 20px;
+text-align: center;
+
+}
+.serpage .searchbar {
+  padding: 10px;
+  width: 300px; /* Adjust width as needed */
+  border-radius: 15% solid rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  background-color:rgb(255, 255, 255);
+border-radius: 20px;
+  
+}
+
+.serbox {
+  padding: 10px;
+  background-color:rgb(47, 231, 255);
+  color: #000000;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+}
+

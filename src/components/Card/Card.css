@@ -1,0 +1,75 @@
+.cards {
+  display: inline-block;
+  transition: transform .3s;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 0.400rem;
+  cursor:pointer;
+  width:165px;
+  height:250px;
+  z-index:0;
+  border: 3px solid rgb(255, 255, 255);
+  background-color:  #000000;
+
+}
+.cardtitle{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.vote{
+  position: relative;
+  display: inline-flex;
+
+
+  color: #ffffff; /* Text color */
+  font-weight: bold;
+}
+.cards:hover {
+  transform: scale(1.2);
+  z-index: 1000;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+
+.cards__img {
+  height: 100%;
+  width: 100%;
+}
+
+ .cards:hover {
+  transform: scale(1.2);
+  z-index: 1000;
+} 
+ 
+
+.cards__overlay {
+  position: absolute;
+  padding: 0 1rem 1rem 1rem;
+  bottom: 0px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-end;
+  transition: opacity .2s;
+
+  background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+
+}   
+
+.cards__overlay:hover {
+  opacity: 1;
+}
+
+
+
+ 
+ 
+ 
+
+   
+
+
